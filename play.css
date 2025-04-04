@@ -51,3 +51,9 @@ h1{
     border-radius: 10%;
     margin-top: 5rem;
 }
+
+.pattern:active {
+    transform: scale(1.2); /* Increases size */
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8); /* Glowing effect */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
