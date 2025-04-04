@@ -64,5 +64,3 @@ choice.forEach((pattern) => {
         playGame(userChoice);
     });
 });
-
-let reset
