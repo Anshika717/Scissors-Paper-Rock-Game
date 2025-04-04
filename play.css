@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(#27445D,#497D74,#71BBB2,#EFE9D5);
+    height: 800px;
+}
+h1{
+    height: 7rem;
+    background-color: #27445D;
+    color: wheat;
+    line-height: 7rem;
+    font-size: 3rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.pattern{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+.pattern:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#scoreboard{
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 6rem;
+}
+#myscoreval , #compscoreval{
+    font-size: 5rem;
+}
+#asktoplay{
+    font-size: 2.5rem;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 10%;
+    margin-top: 5rem;
+}
